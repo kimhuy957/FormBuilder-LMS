@@ -1,0 +1,45 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dependencies
+vendor/
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Upload files
+uploads/
+temp/
+
+# Cache
+cache/
+.cache
+
+# Database
+*.sql.bak
+
+# Composer
+composer.lock
+
+# NPM
+package-lock.json
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Testing
+coverage/
+phpunit.xml
